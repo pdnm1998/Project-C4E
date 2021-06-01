@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#topnav {
+    height: 104px;
+    width: 1279px;
+    position: fixed;
+    background-color: red;
+}
+
+.topbar {
+    background-color: #3ac9d6;
+    height: 52px;
+    width: 1279px;
+}
+
+.container {
+    width: 90%;
+    padding: 0px 15px;
+    margin: 0px 64px;
+}
+
+img#hd {
+    width: 213px;
+    height: 50px;
+}
