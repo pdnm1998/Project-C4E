@@ -4,10 +4,10 @@
 }
 
 #topnav {
+    position: fixed;
     height: 104px;
     width: 1279px;
-    position: fixed;
-    background-color: red;
+    background-color: transparent;
 }
 
 .topbar {
@@ -17,10 +17,13 @@
 }
 
 .container {
-    position: relative;
     width: 90%;
-    padding: 0px 15px;
-    margin: 0px 64px;
+    padding: 0px 15px 0px 15px !important;
+    margin: 0px 64px 0px 64px !important;
+}
+
+#logo {
+    float: left;
 }
 
 img#hd {
@@ -30,18 +33,19 @@ img#hd {
 
 ul#dn {
     display: flex;
-    justify-content: right;
+    /* justify-content: right; */
     list-style: none;
+    margin: 0px;
+    float: right;
 }
 
 .menu {
-    /* position: absolute; */
-    float: right !important;
-    margin-top: 15px;
+    float: right ! important;
+    margin-bottom: 5px;
 }
 
 .menu>li {
-    position: absolute;
+    position: relative;
     display: block;
 }
 
@@ -81,7 +85,53 @@ button#dangky {
     box-sizing: border-box;
 }
 
-button {
-    margin-right: 8px;
-    width: auto;
+#body {
+    height: 1000px;
+    background-color: lightcoral;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    height: 52px;
+    width: 1279px;
+}
+
+#form {
+    display: flex;
+    align-items: flex-start;
+}
+
+.form-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.w3-xlarge {
+    color: #00acc1;
+    padding: 8px 5px 8px 0px;
+}
+
+#trangchu:link {
+    line-height: 20px;
+    text-decoration: none;
+}
+
+#trangchu {
+    color: #00acc1;
+}
+
+.end {
+    background-color: #84b7bb;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    bottom: 0px;
+    color: #000000;
+    text-align: left !important;
+    padding: 20px 0px;
+    position: relative;
+    right: 0px;
+    left: 0px;
 }
