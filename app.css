@@ -135,3 +135,15 @@ button#dangky {
     right: 0px;
     left: 0px;
 }
+
+#doiThe{
+    margin:auto;
+    padding: 10px;
+    width: 750px;
+    height: 750px;
+    border-radius: 15px;
+background: #e0e0e0;
+box-shadow:  9px 9px 15px #a4a4a4,
+             -9px -9px 15px #ffffff;
+    
+}
