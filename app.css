@@ -146,8 +146,14 @@
     }
     
     .body {
-        padding-top: 144px;
+        padding-top: 114px;
         background-color: #fff;
+    }
+    
+    .col-lg-12 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
     }
     
     .panel {
@@ -163,6 +169,17 @@
         border-radius: 4px;
     }
     
+    .col-sm-12 {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+    }
+    
+    .page-title-box {
+        padding: 30px 0px;
+    }
+    
     strong {
         font-weight: 600;
         font-family: 'Hind Madurai', sans-serif;
@@ -176,32 +193,36 @@
     
     .row#main {
         display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     #doiThe {
         position: relative;
         /* float: left; */
-        margin: auto;
+        /* margin: auto; */
         padding-left: 10px;
         padding-right: 10px;
         width: 33.33333333%;
         height: 750px;
-        border-radius: 15px;
+        border-radius: 4px;
         background: #e0e0e0;
-        box-shadow: 9px 9px 15px #a4a4a4, -9px -9px 15px #ffffff;
+        box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+        margin-bottom: 20px;
     }
     
     #loaithe {
         position: relative;
         /* float: right !important; */
-        margin: auto;
+        margin-left: 20px;
         padding-left: 10px;
         padding-right: 10px;
         width: 58.33333333%;
         height: 750px;
-        border-radius: 15px;
+        border-radius: 4px;
         background: #e0e0e0;
-        box-shadow: 9px 9px 15px #a4a4a4, -9px -9px 15px #ffffff;
+        box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+        margin-bottom: 20px;
     }
     
     .end {
