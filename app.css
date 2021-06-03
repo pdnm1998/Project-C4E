@@ -9,7 +9,7 @@
     body {
         margin: 0;
         overflow-x: hidden;
-        background-color: #f3f3f3;
+        background-color: #f3f3f3 !important;
         color: #797979;
         height: 100%;
     }
@@ -147,6 +147,7 @@
     
     .body {
         padding-top: 144px;
+        background-color: #fff;
     }
     
     .panel {
