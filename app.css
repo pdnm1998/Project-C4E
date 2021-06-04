@@ -154,6 +154,7 @@
         padding-left: 10px;
         padding-right: 10px;
         width: 100%;
+        position: relative;
     }
     
     .panel {
@@ -188,41 +189,51 @@
     .row {
         margin-right: -10px;
         margin-left: -10px;
-        width: 100%;
     }
     
     .row#main {
         display: flex;
+    }
+    
+    .classdt {
+        margin-top: 0px;
         padding-left: 10px;
         padding-right: 10px;
+        width: 33.33333333%;
+    }
+    
+    .classlt {
+        margin-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 58.33333333%;
     }
     
     #doiThe {
         position: relative;
         /* float: left; */
         /* margin: auto; */
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 33.33333333%;
-        height: 750px;
+        /* height: 100%; */
+        margin-top: -10px;
         border-radius: 4px;
-        background: #e0e0e0;
+        background: #fff;
         box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
         margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     #loaithe {
         position: relative;
         /* float: right !important; */
-        margin-left: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 58.33333333%;
+        margin-top: -10px;
         height: 750px;
         border-radius: 4px;
         background: #e0e0e0;
         box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
         margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .end {
