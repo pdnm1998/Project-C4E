@@ -211,6 +211,8 @@
     
     #doiThe {
         position: relative;
+        height: 450px;
+        width: 340px;
         /* float: left; */
         /* margin: auto; */
         /* height: 100%; */
@@ -218,6 +220,20 @@
         background: #fff;
         box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
         margin-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    button{
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    button:hover{
+        background-color: black;
+        color: blanchedalmond;
+        cursor: context-menu;
     }
     
     #loaithe {
@@ -227,6 +243,7 @@
         background-color: #fff;
         box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
         margin-bottom: 20px;
+        width: 690px;
     }
     
     .panel-heading {
