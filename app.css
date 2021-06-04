@@ -164,7 +164,7 @@
         border-radius: 4px;
     }
     
-    .panel .panel-body {
+    .panel-body {
         background-color: #fff;
         padding: 20px;
         border-radius: 4px;
@@ -211,8 +211,8 @@
     
     #doiThe {
         position: relative;
-        height: 450px;
-        width: 340px;
+        /* height: 450px;
+        width: 340px; */
         /* float: left; */
         /* margin: auto; */
         /* height: 100%; */
@@ -220,18 +220,16 @@
         background: #fff;
         box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
         margin-bottom: 20px;
-        padding-left: 5px;
-        padding-right: 5px;
     }
-
-    button{
+    
+    button {
         padding: 5px 10px;
         border-radius: 5px;
         margin-top: 10px;
         width: 120px;
     }
-
-    button:hover{
+    
+    button:hover {
         background-color: black;
         color: blanchedalmond;
         cursor: context-menu;
@@ -244,7 +242,7 @@
         background-color: #fff;
         box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
         margin-bottom: 20px;
-        width: 690px;
+        /* width: 690px; */
     }
     
     .panel-heading {
@@ -253,6 +251,11 @@
         border: none !important;
         padding: 15px 20px;
         border-radius: 4px 4px 0 0;
+    }
+    
+    .panel-heading h3 {
+        font-family: "Segoe UI", Arial, sans-serif;
+        padding-bottom: 0;
     }
     
     .panel-title {
