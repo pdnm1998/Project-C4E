@@ -22,7 +22,7 @@
     #topnav {
         position: fixed;
         height: 104px;
-        width: 1279px;
+        width: 100%;
         background-color: transparent;
     }
     
@@ -115,7 +115,7 @@
         background-color: #ffffff;
         box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
         height: 52px;
-        width: 1279px;
+        width: 100%;
     }
     
     #form {
@@ -195,6 +195,7 @@
         display: flex;
         padding-left: 10px;
         padding-right: 10px;
+        flex-flow: row wrap;
     }
     
     #doiThe {
@@ -259,4 +260,10 @@
         width: 33.33333333%;
         float: left;
         position: relative;
+    }
+    table#loaithe {
+      display: flex;
+      border: #000;
+      text-align: center;
+      flex-flow: row wrap;
     }
