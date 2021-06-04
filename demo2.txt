@@ -1,0 +1,292 @@
+    1  cd zoom
+    2  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    3  [200~sudo dpkg -i google-chrome-stable_current_amd64.deb~
+    4  sudo dpkg -i google-chrome-stable_current_amd64.deb
+    5  clear
+    6  git clone https://github.com/pdnm1998/Learn-Js.git
+    7  sudo apt install git
+    8  git clone https://github.com/pdnm1998/Learn-Js.git
+    9  clear
+   10  git clone https://github.com/pdnm1998/Learn-Js.git
+   11  cd desttop
+   12  cd .
+   13  cd home
+   14  git clone https://github.com/pdnm1998/Learn-Js.git
+   15  code .
+   16  cd.
+   17  git ls
+   18  hit --help
+   19  git --help
+   20  git commit -m "demo"
+   21  git config --global nhatminh.name
+   22  git config --global nhatminh
+   23  git init
+   24  git add .
+   25  git commit -m "demo"
+   26  git config --global nkocvjp92@gmail.com
+   27  git config --global nkocvjp92.email
+   28  clear
+   29  cd ~/home
+   30  cd .
+   31  clea
+   32  clear
+   33  git clone https://github.com/pdnm1998/Project-C4E.git
+   34  git add .
+   35  git commit -m "demo"
+   36  cd 'Git Cnfig'/
+   37  git config --global user.email "nkocvjp92@gmail.com"
+   38  git config --global user.email nkocvjp92@gmail.com
+   39  git config --global user.name "nhatminh"
+   40  git config user.name
+   41  git config user.email
+   42  git commit -m "demo"
+   43  git push origin master
+   44  code .
+   45  git add .
+   46  git commit -m "demo"
+   47  git overload
+   48  git --help
+   49  git log
+   50  git show
+   51  git init
+   52  sudo apt-get install ibus-unikey
+   53  git commit -m "demo"
+   54  git push project master
+   55  git remote -v
+   56  git remote add project project https://github.com/pdnm1998/Project-C4E.git
+   57  git remote -v
+   58  git push origin master
+   59  clear
+   60  cd .
+   61  cd desktop
+   62  clea
+   63  clear
+   64  sudo add-apt-repository ppa:ubuntu-vn/ppa
+   65  sudo apt-get update
+   66  sudo apt-get install ibus-unikey
+   67  ibus restar
+   68  ibus restart
+   69  sudo apt install gparted
+   70  clear
+   71  sudo fdisk -l
+   72  clear
+   73  sudo fdish /dev/sdb
+   74  sudo add-apt-resository ppa:danielrichter2007/grub-customizer
+   75  sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+   76  sudo apt-get install grub-customizer
+   77  sudo fdish /dev/sda3
+   78  sudo apt-get update
+   79  sudo apt-get -y update
+   80  sudo reboot
+   81  code .
+   82  sudo apt-get update -y
+   83  sudo apt-get install -y scratch
+   84  clear
+   85  sudo apt-get install unrar
+   86  sudo apt-get remove  scratch
+   87  clear
+   88  sudo apt install mplayer mplayer-gui
+   89  sudo apt uninstall mplayer mplayer-gui
+   90  sudo apt install smplayer
+   91  sudo apt install mplayer mplayer-gui
+   92  sudo apt-get remove mplayer-gui
+   93  dotnet new console
+   94  code .
+   95  sudo snap install dotnet-sdk
+   96  dotnet new console
+   97  sudo snap install dotnet-sdk
+   98  clear
+   99  wget https://packages.microsoft.com/config/ubuntu/20.10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+  100  sudo dpkg -i packages-microsoft-prod.deb
+  101  sudo apt-get update;   sudo apt-get install -y apt-transport-https &&   sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-5.0
+  102  sudo apt-get update;   sudo apt-get install -y apt-transport-https &&   sudo apt-get update &&   sudo apt-get install -y aspnetcore-runtime-5.0
+  103  dotnet new console
+  104  sudo snap install dotnet-sdk
+  105  sudo apt-get install -y dotnet-runtime-5.0
+  106  wget https://packages.microsoft.com/config/ubuntu/20.10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+  107  sudo dpkg -i packages-microsoft-prod.deb
+  108  sudo apt-get update;   sudo apt-get install -y apt-transport-https &&   sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-5.0
+  109  wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+  110  sudo dpkg -i packages-microsoft-prod.deb
+  111  sudo apt-get update;   sudo apt-get install -y apt-transport-https &&   sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-5.0
+  112  sudo apt-get update
+  113  sudo apt-get upgrade
+  114  clear
+  115  do apt-get update
+  116  sudo apt-get update
+  117  sudo apt-get -y upgrade
+  118  sudo wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  119  sudo wget -qO- https://packages.microsoft.com/keys/microsoft.asc 
+  120  sudo apt-key add -
+  121  curl https://packages.microsoft.com/keys/microsoft.asc
+  122  sudo apt-key add -
+  123  sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/18.04/mssql-server-2019.list)"
+  124  sudo apt update
+  125  sudo apt install mssql-server
+  126  sudo /opt/mssql/bin/mssql-conf setup
+  127  systemctl status mssql-server.service 
+  128  url https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  129  curl https://packages.microsoft.com/config/ubuntu/19.10/prod.list > /etc/apt/sources.list.d/mssql-release.list
+  130  sudo apt update 
+  131  sudo ACCEPT_EULA=Y apt install mssql-tools unixodbc-dev
+  132  curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  133  curl https://packages.microsoft.com/config/ubuntu/19.10/prod.list > /etc/apt/sources.list.d/mssql-release.list
+  134  sudo apt update 
+  135  sudo ACCEPT_EULA=Y apt install mssql-tools unixodbc-dev
+  136  echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+  137  echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+  138  source ~/.bashrc
+  139  sqlcmd -S 127.0.0.1 -U SA 
+  140  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  141  sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/20.04/mssql-server-2019.list)"
+  142  sudo apt-get update
+  143  sudo apt-get install -y mssql-server
+  144  sudo /opt/mssql/bin/mssql-conf setup
+  145  systemctl status mssql-server --no-pager
+  146  curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  147  clear
+  148  ./dotnet-install.sh -c Current
+  149  ./dotnet-install.sh -c Current --runtime aspnetcore
+  150  CLEAR
+  151  SUDO APT-GET INSTALL WGET APT-TRANSPORT-HTTPS
+  152  sudo apt-get install apt-transport-https
+  153  clear
+  154  ls
+  155  sudo dpkg -i packages-microsoft-prod.deb
+  156  sudo apt-get update
+  157  clear
+  158  sudo apt-get install dotnet-sdk-5.0
+  159  clear
+  160  donet --version
+  161  dotnet --version
+  162  dotnet new console -o hello
+  163  clear
+  164  ls
+  165  cd hello
+  166  ls
+  167  dotnet run
+  168  code .
+  169  code .
+  170  clear
+  171  cd .
+  172  cd desktop
+  173  cd ./desktop
+  174  cd
+  175  dotnet tool update <PACKAGE_ID> -g|--global
+  176  dotnet tool update <PACKAGE_ID> --tool-path <PATH>
+  177  dotnet tool update <PACKAGE_ID> --local
+  178  dotnet tool update -h|--help
+  179  dotnet --list-sdks
+  180  dotnet --list-runtimes
+  181  clear
+  182  wget https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb
+  183  ls
+  184  sudo dpkg -i packages-microsoft-prod.deb 
+  185  clear
+  186  sudo apt-get update
+  187  clear
+  188  sudo apt-get install dotnet-sdk-5.0
+  189  dotnet --version
+  190  code .
+  191  wget https://github.com/nuttyartist/notes/releases/download/v1.0.0/notes_1.0.0_amd64-zesty.deb
+  192  sudo dpkg -i notes_1.0.0_amd64-zesty.deb
+  193  clear
+  194  sudo remove notes
+  195  clear
+  196  sudo add-apt-repository ppa:umang/indicator-stickynotes
+  197  sudo apt-get update
+  198  sudo apt-get install indicator-stickynotes
+  199  sudo add-apt-repository ppa:umang/indicator-stickynotes
+  200  sudo apt-get update 
+  201  sudo apt-get install indicator-stickynotes
+  202  ls
+  203  wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY
+  204  sudo apt-key add - AnyDesk repository
+  205  sudo apt install anydesk
+  206  sudo dpkg -i anydesk_5.5.6-1_amd64.deb
+  207  sudo apt-get install -f
+  208  sudo dpkg -i anydesk_5.5.6-1_amd64.deb
+  209  ls
+  210  sudo dpkg -i AnyDesk.exe
+  211  clear
+  212  ls
+  213  sudo dpkg -i anydesk_6.1.1-1_amd64.deb 
+  214  sudo apt-get install -f
+  215  clear
+  216  ifconfig
+  217  cd
+  218  ifconfig
+  219  code .
+  220  sudo apt install alien
+  221  clear
+  222  sudo rpm -ivh android-x86-version.rpm
+  223  sudo alien -ci android-x86-version.rpm
+  224  code .
+  225  git add .
+  226  git commit -m "buoi10"
+  227  git push origin master
+  228  git add .
+  229  clear
+  230  git commit -m "buoi10"
+  231  git push origin master
+  232  git push origin master
+  233  git log
+  234  git push origin master
+  235  code .
+  236  git add
+  237  git add .
+  238  git commit -m "nhatminh"
+  239  git push project master
+  240  git log
+  241  git push origin master
+  242  code .
+  243  git add .
+  244  git commit -m "minh"
+  245  git push origin master
+  246  clear
+  247  git add .
+  248  git commit -m "minh"
+  249  git push origin master
+  250  git status
+  251  git push origin master 
+  252  code .
+  253  clear
+  254  git add .
+  255  git commit -m "nhatminh"
+  256  git push origin master
+  257  code .
+  258  cd ..
+  259  cd ...
+  260  cd c4e
+  261  ls
+  262  cd C4E/
+  263  ls
+  264  cd Project-C4E/
+  265  git add .
+  266  git commit -m "nhatminh"
+  267  git push origin master 
+  268  clear
+  269  git add .
+  270  git commit -m "nhat minh
+  271  git commit -m "nhat minh"
+  272  clear
+  273  git commit -m "nhat minh"
+  274  git push origen master 
+  275  git push origin master 
+  276  clear
+  277  git branch
+  278  git switch master
+  279  git switch nhatminh
+  280  git branch
+  281  git log --oneline
+  282  git switch master
+  283  git checkout
+  284  git switch nhatminh
+  285  git add .
+  286  git commit -m "test"
+  287  git config --global user.name "pdnm1998"
+  288  git config --global pdnm1998.name 
+  289  git config --global user.email "nkocvjp92@gmail.com"
+  290  git config --global nkocvjp92@gmail.com 
+  291  history
+  292  history > demo2.txt
