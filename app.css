@@ -214,26 +214,82 @@
         /* float: left; */
         /* margin: auto; */
         /* height: 100%; */
-        margin-top: -10px;
         border-radius: 4px;
         background: #fff;
         box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
         margin-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
     
     #loaithe {
         position: relative;
         /* float: right !important; */
-        margin-top: -10px;
-        height: 750px;
         border-radius: 4px;
-        background: #e0e0e0;
+        background-color: #fff;
         box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
         margin-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+    }
+    
+    .panel-heading {
+        background-color: #f5707a;
+        color: #a94442;
+        border: none !important;
+        padding: 15px 20px;
+        border-radius: 4px 4px 0 0;
+    }
+    
+    .panel-title {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-transform: uppercase;
+    }
+    
+    .panel>.tb:last-child {
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    
+    .tb {
+        border: 0;
+        margin-bottom: 0;
+        width: 100%;
+        max-width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-top: 0.75em;
+        background-color: transparent;
+        font-size: medium;
+    }
+    
+    .tb>thead>tr>th {
+        padding: 10px 8px;
+        border: 1px solid #ddd;
+        border-bottom: 0;
+        border-top: 0;
+        border-left: 0;
+    }
+    
+    th {
+        font-size: 1.2em;
+        text-align: left;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit;
+    }
+    
+    .tablebd>tr>td {
+        padding: 10px 8px;
+        border: 1px solid #ddd;
+        border-bottom: 0;
+        border-top: 0;
+        border-left: 0;
     }
     
     .end {
