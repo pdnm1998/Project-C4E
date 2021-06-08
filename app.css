@@ -24,6 +24,7 @@
         height: 104px;
         width: 1279px;
         background-color: transparent;
+        z-index: 99999;
     }
     
     .topbar {
